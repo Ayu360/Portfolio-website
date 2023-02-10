@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: var(--font-mono);
+  background-color: var(--navy);
+  color: var(--light-slate);
+}
+ 
+html {
+  scroll-behavior: smooth;
+}
+ 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ 
+:root {
+  --font-sans:  sans-serif;
+  --font-mono:  monospace;
+  --transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  --dark-navy: black;
+  --navy: #ED7014;
+  --light-navy:rgb(0, 0, 0,0.2);
+  --lightest-navy: rgb(255, 255, 255,0.2);
+  --transparent-navy: #D16002;
+  --navy-shadow: black;
+  --dark-slate: black;
+  --slate: #black;
+  --light-slate: rgb(0,0,0,0.7);
+  --lightest-slate: black;
+  --white: black;
+  --green: white;
+  --green-tint:rgb(0,0,0,0..5);
+  --fz-xxs: 10px;
+  --fz-xs: 11px;
+  --fz-sm: 12px;
+  --fz-md: 14px;
+  --fz-lg: 16px;
+  --fz-xl: 18px;
+  --fz-xxl: 20px;
+  --fz-heading: 30px;
+}

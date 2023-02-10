@@ -1,0 +1,38 @@
+.contact_bar_wrapper {
+    width: 100%;
+    position: fixed;
+    right:0;
+    bottom: 80px;
+    display: flex;
+    justify-content: flex-end;
+}
+ 
+.contact_bar {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+ 
+.contact_bar_line {
+    width: 1px;
+    height: 120px;
+    background: var(--light-slate);
+    margin-top: 20px;
+}
+ 
+
+ 
+.contact_bar_icon {
+    margin-top: 15px;
+    cursor: pointer;
+    transition: var(--transition);
+}
+ 
+
+ 
+.contact_bar_icon:hover {
+    color: var(--green);
+    transform: translateY(-3px);
+}
